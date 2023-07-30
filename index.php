@@ -22,7 +22,7 @@
     }
     if ($text == "/readme") {
       file_put_contents($file);
-      $msg = "Bot ini dibuat dengan script yang dapat diperoleh melalui tautan berikut: https://github.com/madfxr/whoisxbot";
+      $msg = "Source https://github.com/madfxr/whoisxbot";
     }
 
     elseif ($text == "/whois") {
